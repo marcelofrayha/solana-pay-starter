@@ -1,6 +1,8 @@
 .App {
-  height: 100vh;
-  background-color: rgb(20, 20, 20);
+  padding-top: 6%;
+  padding-bottom: 6%;
+  height: auto;
+  background-color: rgb(154, 52, 191);
   text-align: center;
   overflow: hidden;
 }
@@ -92,12 +94,16 @@ button:disabled {
   width: 100%;
   bottom: 0;
   left: 0;
-  padding-bottom: 20px;
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -70px;
 }
 
-.twitter-logo {
+.insta-logo {
   width: 35px;
   height: 35px;
+  padding-right: 5px;
 }
 
 .footer-text {
